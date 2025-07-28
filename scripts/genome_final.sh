@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name="Juicebox to Fasta"
+#SBATCH --job-name="Genome_Cleanup"
 #SBATCH --account=ISAAC-UTK0312
 #SBATCH --partition=short
 #SBATCH --qos=short
@@ -9,8 +9,8 @@
 #SBATCH -t 1:00:00            #time to run
 #SBATCH --mail-user=nhaulk@utk.edu  #enter your email address to receive emails
 #SBATCH --mail-type=BEGIN,END,FAIL #will receive an email when job starts, ends$
-#SBATCH -o "JtF.%j.out"     # standard output, %j adds job number to output fil$
-#SBATCH -e "JtF.%j.err"     #optional, prints our standard error
+#SBATCH -o "output/Genome_clean.%j.out"     # standard output, %j adds job number to output fil$
+#SBATCH -e "output/Genome_clean.%j.err"     #optional, prints our standard error
 
 
 
@@ -43,7 +43,7 @@ python /lustre/isaac24/proj/UTK0312/nathaniel.haulk/Dlongi_genomes/juicebox_asse
   -s
 
 # Run stats on the produced FASTA file
-stats.sh -Xmx4g ${PREFIX}.fasta >${PREFIX}.stats 
+stats.sh -Xmx4g ${PREFIX}.fasta >${PREFIX}.stats
 
 
 
