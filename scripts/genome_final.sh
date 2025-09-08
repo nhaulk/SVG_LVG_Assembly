@@ -13,12 +13,11 @@
 #SBATCH -e "output/Genome_clean.%j.err"     #optional, prints our standard error
 
 
-
-
 # Define paths
 ASSEMBLY="/lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/LVGandSVG_Juicebox/LVG_juicebox_p/LVG_Male.p_ctg_noec.review_kac_07-11-25.assembly.assembly"
 PREFIX="test"
 RAWDATA="/lustre/isaac24/scratch/nhaulk/Dlongi_genomes_USDA/LVG_Punaluu_Male"
+SOFTWARE="/lustre/isaac24/scratch/nhaulk/software"
 
 # Define output directory
 OUTPUTDIR="../Clean_Genome"
@@ -43,13 +42,29 @@ python /lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/juicebox_assembly_c
   -s
 
 # Run stats on the produced FASTA file
-stats.sh -Xmx4g ${PREFIX}.fasta >${PREFIX}.stats
+stats.sh -Xmx4g ${PREFIX}.fasta > ${PREFIX}.stats
 
 # combine the mitochondiral dNA with the scaffold info
-cat ${RAWDATA}/HiC_yahs_p/yahs/LVG_Male.p_ctg_yahsout_noec_scaffolds_final.fa ${RAWDATA}/MT_p_noec/CM067966.1.fasta > Dlongi_UGA_Male_chr_unpl_mt.fasta
+cat ${RAWDATA}/HiC_yahs_p/yahs/LVG_Male.p_ctg_yahsout_noec_scaffolds_final.fa ${RAWDATA}/MT_p_noec/CM067966.1.fasta > ${PREFIX}.fasta
 
-#!/bin/bash
-
+# Add a space above the mitochondrial dna in the fasta file
 sed '/^>CM067966\.1 Diachasmimorpha longicaudata isolate KC_UGA_2023 mitochondrion, complete sequence, whole genome shotgun sequence/ i\
-' "Dlongi_UGA_Male_chr_unpl_mt.fasta" > "Dlongi_UGA_Male_chr_unpl_mt2.fasta"
+' "${PREFIX}.fasta" > "${PREFIX}2.fasta"
+
+## ADD THE MT_CONTIGS COMMAND HERE
+
+# compile a list of all contaminating contigs
+cat ${RAWDATA}/Blob_p_ec/LVG_Male.p_ctg_ec_blobblurbout.tsv | grep -v "Arthropoda\|record" | cut -f 1 > blob_contaminants.txt
+
+cat ${PREFIX}2.fasta | grep ">" | cut -c2- >debris.txt
+
+cat ${PREFIX}2.fasta | grep ">" | cut -c2- | grep "debris" >debris.txt
+
+
+# Make a trash contig file
+
+cat mt_contigs.txt blob_contaminants.txt debris.txt > _trash.txt
+
+python $SOFTWARE/FastaParser/fastaparser.py ${RAWDATA}.fasta ${RAWDATA}_.txt
+
 
