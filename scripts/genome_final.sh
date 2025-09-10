@@ -63,8 +63,8 @@ cat ${PREFIX}2.fasta | grep ">" | cut -c2- | grep "debris" >debris.txt
 
 # Make a trash contig file
 
-cat mt_contigs.txt blob_contaminants.txt debris.txt > _trash.txt
+cat $RAWDATA/MT_p_ec/contigs_ids.txt blob_contaminants.txt debris.txt > trash.txt
 
-python $SOFTWARE/FastaParser/fastaparser.py ${RAWDATA}.fasta ${RAWDATA}_.txt
+python $SOFTWARE/FastaParser/fastaparser.py ${PREFIX}.fasta trash.txt
 
 
