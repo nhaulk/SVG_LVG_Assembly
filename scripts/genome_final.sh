@@ -51,8 +51,6 @@ cat ${RAWDATA}/HiC_yahs_p/yahs/LVG_Male.p_ctg_yahsout_noec_scaffolds_final.fa ${
 sed '/^>CM067966\.1 Diachasmimorpha longicaudata isolate KC_UGA_2023 mitochondrion, complete sequence, whole genome shotgun sequence/ i\
 ' "${PREFIX}.fasta" > "${PREFIX}2.fasta"
 
-## ADD THE MT_CONTIGS COMMAND HERE
-
 # compile a list of all contaminating contigs
 cat ${RAWDATA}/Blob_p_ec/LVG_Male.p_ctg_ec_blobblurbout.tsv | grep -v "Arthropoda\|record" | cut -f 1 > blob_contaminants.txt
 
@@ -63,8 +61,14 @@ cat ${PREFIX}2.fasta | grep ">" | cut -c2- | grep "debris" >debris.txt
 
 # Make a trash contig file
 
-cat $RAWDATA/MT_p_ec/contigs_ids.txt blob_contaminants.txt debris.txt > trash.txt
+cat $RAWDATA/MT_p_ec/contigs_ids.txt blob_contaminants.txt debris.txt > ${PREFIX}_trash.txt
 
-python $SOFTWARE/FastaParser/fastaparser.py ${PREFIX}.fasta trash.txt
+#
+python $SOFTWARE/FastaParser/fastaparser.py ${PREFIX}.fasta ${PREFIX}_trash.txt
 
 
+cat ${PREFIX}_trash_remaining.lengths >chr.lengths
+
+cat ${PREFIX}_trash_remaining.lengths >unpl.lengths
+
+cat ${PREFIX}_trash_remaining.lengths >mt.length
