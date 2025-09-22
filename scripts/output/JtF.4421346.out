@@ -1,0 +1,36 @@
+../JtoF_fasta already exists.
+Processing assembly file. Details:
+Assembly:			/lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/LVGandSVG_Juicebox/SVG_juicebox_p/SVG_Male.p_ctg_noec.review_kac_07-11-25.assembly.assembly
+Fasta:				/lustre/isaac24/scratch/nhaulk/Dlongi_genomes_USDA/SVG_Onekahakaha_Male/HiC_yahs_p/SVG_Male.p_ctg_noec_converted.fasta
+Output prefix:			SVG.p_noec
+Contig mode:			False
+Simple Chromosome Names:	True
+
+Reading sequences from /lustre/isaac24/scratch/nhaulk/Dlongi_genomes_USDA/SVG_Onekahakaha_Male/HiC_yahs_p/SVG_Male.p_ctg_noec_converted.fasta...
+.
+Sequences read
+
+Reading .assembly file /lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/LVGandSVG_Juicebox/SVG_juicebox_p/SVG_Male.p_ctg_noec.review_kac_07-11-25.assembly.assembly...
+.assembly read
+
+Checking for breaks listed in .assembly and making them...
+WARNING: original contig ctg00000007.1 is 2997879 and fragment ctg00000007.1:::fragment_3 length is 2997878
+WARNING: original contig ctg00000014.1 is 3080337 and fragment ctg00000014.1:::fragment_3 length is 3080336
+WARNING: original contig ctg00000018.1 is 435882 and fragment ctg00000018.1:::fragment_3 length is 435881
+100 contigs processed for breaks
+Break check complete
+
+Writing AGP to SVG.p_noec.agp...
+Writing complete
+
+Writing BED to SVG.p_noec.bed...
+Writing complete
+
+Writing break report to SVG.p_noec.break_report.txt...
+Writing complete
+
+Writing FASTA to SVG.p_noec.fasta...
+...
+Success: 105 Fail 0
+Writing complete
+

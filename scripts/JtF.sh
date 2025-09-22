@@ -12,20 +12,15 @@
 #SBATCH -o "JtF.%j.out"     # standard output, %j adds job number to output fil$
 #SBATCH -e "JtF.%j.err"     #optional, prints our standard error
 
-
-
-python /lustre/isaac24/proj/UTK0312/nathaniel.haulk/Dlongi_genomes/juicebox_assembly_converter.py -a /lustre/isaac24/proj/UTK0312/nathaniel.haulk/Dlongi_genomes/LVGandSVG_Juicebox/LVG_juicebox_p/LVG_Male.p_ctg_noec.review_kac_07-11-25.assembly.assembly /
--f /lustre/isaac24/scratch/nhaulk/Dlongi_genomes/LVG_Punaluu_Male/HiC_yahs_p/LVG_Male.p_ctg_noec_converted.fasta /
--p test -s
-
+conda activate genome_assembly
 
 # Define paths
-ASSEMBLY="/lustre/isaac24/proj/UTK0312/nathaniel.haulk/Dlongi_genomes/LVGandSVG_Juicebox/LVG_juicebox_p/LVG_Male.p_ctg_noec.review_kac_07-11-25.assembly.assembly"
-FASTA="/lustre/isaac24/scratch/nhaulk/Dlongi_genomes/LVG_Punaluu_Male/HiC_yahs_p/LVG_Male.p_ctg_noec_converted.fasta"
-PREFIX="test"
+ASSEMBLY="$1"
+FASTA="$2"
+PREFIX="$3"
 
 # Define output directory
-OUTPUTDIR="../converted_scaffold"
+OUTPUTDIR="../JtoF_fasta"
 
 # Check if output directory exists; if not, create it
 if [[ -d "$OUTPUTDIR" ]]; then
@@ -36,7 +31,7 @@ else
 fi
 
 # Run the converter
-python /lustre/isaac24/proj/UTK0312/nathaniel.haulk/Dlongi_genomes/juicebox_assembly_converter.py \
+python /lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/software/juicebox_assembly_converter.py \
   -a "$ASSEMBLY" \
   -f "$FASTA" \
   -p "$PREFIX" \

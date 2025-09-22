@@ -1,0 +1,9 @@
+Mon Sep 22 15:44:08 2025 --- VERSION: RagTag v2.1.0
+Mon Sep 22 15:44:08 2025 --- CMD: ragtag.py scaffold /lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/LVGandSVG_Juicebox /GCF_034640455.1_iyDiaLong2_genomic.fna
+Traceback (most recent call last):
+  File "/nfs/home/nhaulk/miniconda3/envs/ragtag_env/bin/ragtag_scaffold.py", line 577, in <module>
+    main()
+    ~~~~^^
+  File "/nfs/home/nhaulk/miniconda3/envs/ragtag_env/bin/ragtag_scaffold.py", line 317, in main
+    raise FileNotFoundError("Could not find file: %s" % reference_file)
+FileNotFoundError: Could not find file: /lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/LVGandSVG_Juicebox
