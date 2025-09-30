@@ -15,7 +15,7 @@
 
 # Define paths
 ASSEMBLY="/lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/LVGandSVG_Juicebox/LVG_juicebox_p/LVG_Male.p_ctg_noec.review_kac_07-11-25.assembly.assembly"
-PREFIX="test"
+PREFIX="LVG_p_noec"
 RAWDATA="/lustre/isaac24/scratch/nhaulk/Dlongi_genomes_USDA/LVG_Punaluu_Male"
 SOFTWARE="/lustre/isaac24/scratch/nhaulk/software"
 
@@ -33,6 +33,8 @@ fi
 
 # Move to the working directory
 cd "$OUTPUTDIR"
+
+
 
 # Convert the file from a juicebox assembly to a fasta file
 python /lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/juicebox_assembly_converter.py \
@@ -52,23 +54,23 @@ sed '/^>CM067966\.1 Diachasmimorpha longicaudata isolate KC_UGA_2023 mitochondri
 ' "${PREFIX}.fasta" > "${PREFIX}2.fasta"
 
 # compile a list of all contaminating contigs
-cat ${RAWDATA}/Blob_p_ec/LVG_Male.p_ctg_ec_blobblurbout.tsv | grep -v "Arthropoda\|record" | cut -f 1 > blob_contaminants.txt
+cat ${RAWDATA}/Blob_p_ec/LVG_Male.p_ctg_ec_blobblurbout.tsv | grep -v "Arthropoda\|record" | cut -f 1 > ${PREFIX}_blob_contaminants.txt
 
-cat ${PREFIX}2.fasta | grep ">" | cut -c2- >debris.txt
+cat ${PREFIX}2.fasta | grep ">" | cut -c2- >${PREFIX}_debris.txt
 
-cat ${PREFIX}2.fasta | grep ">" | cut -c2- | grep "debris" >debris.txt
+cat ${PREFIX}2.fasta | grep ">" | cut -c2- | grep "debris" >${PREFIX}_debris.txt
 
 
 # Make a trash contig file
 
-cat $RAWDATA/MT_p_ec/contigs_ids.txt blob_contaminants.txt debris.txt > ${PREFIX}_trash.txt
+cat $RAWDATA/MT_p_ec/contigs_ids.txt ${PREFIX}_blob_contaminants.txt ${PREFIX}_debris.txt > ${PREFIX}_trash.txt
 
 #
 python $SOFTWARE/FastaParser/fastaparser.py ${PREFIX}.fasta ${PREFIX}_trash.txt
 
 
-cat ${PREFIX}_trash_remaining.lengths >chr.lengths
+cat ${PREFIX}_trash_remaining.lengths >${PREFIX}_chr.lengths
 
-cat ${PREFIX}_trash_remaining.lengths >unpl.lengths
+cat ${PREFIX}_trash_remaining.lengths >${PREFIX}_unpl.lengths
 
-cat ${PREFIX}_trash_remaining.lengths >mt.length
+cat ${PREFIX}_trash_remaining.lengths >${PREFIX}_mt.length
