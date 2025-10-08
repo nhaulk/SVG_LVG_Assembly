@@ -17,16 +17,16 @@
 # Define paths
 PREFIX="LVG_p_noec_chr_unpl_mt"
 NCBI_DATA="/lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/LVGandSVG_Juicebox/GCF_034640455.1_iyDiaLong2_genomic.fna"
+WD="$3"
 
-cd /lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/Clean_Genome
-
+cd WD
 
 # Compare the two files
 nucmer -p ${PREFIX} ${PREFIX}.fasta $NCBI_DATA
 
+#nucmer -p ${PREFIX} LVG_nucmer_ready_wrapped.fasta $NCBI_DATA
+
 # convert the comparisons to delta files 
 python /lustre/isaac24/scratch/nhaulk/software/dot/DotPrep.py --delta ${PREFIX}.delta --out ${PREFIX}
 
-# Move output files that start with the prefix into the output directory
-mv ${PREFIX}* "$OUTPUTDIR/"
 

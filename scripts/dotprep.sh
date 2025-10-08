@@ -8,10 +8,11 @@
 #SBATCH -n 48                 #number of cores/tasks in this job, you get all 2$
 #SBATCH -t 1:00:00            #time to run
 #SBATCH --mail-user=nhaulk@utk.edu  #enter your email address to receive emails
-#SBATCH --mail-type=BEGIN,END,FAIL #will receive an email when job starts, ends$
+#SBATCH --mail-type=END,FAIL #will receive an email when job starts, ends$
 #SBATCH -o "dot.%j.out"     # standard output, %j adds job number to output fil$
 #SBATCH -e "dot.%j.err"     #optional, prints our standard error
 
 
 
-python /lustre/isaac24/scratch/nhaulk/software/dot/DotPrep.py --delta test2.delta
+python /lustre/isaac24/scratch/nhaulk/software/dot/DotPrep.py --delta /lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/Clean_Genome/LVG_p_noec_chr_unpl_mt.delta
+

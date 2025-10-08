@@ -1,0 +1,183 @@
+/var/spool/slurm/spool/job4493014/slurm_script: line 47: stats.sh: command not found
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)
+/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_record_lengths = df_record_lengths.append({'record' : record.name, 'length' : len(record.seq)}, ignore_index = True)

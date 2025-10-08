@@ -20,7 +20,7 @@ RAWDATA="/lustre/isaac24/scratch/nhaulk/Dlongi_genomes_USDA/LVG_Punaluu_Male"
 SOFTWARE="/lustre/isaac24/scratch/nhaulk/software"
 
 # Define output directory
-OUTPUTDIR="../Clean_Genome"
+OUTPUTDIR="../LVG_p_noec_Clean_Genome"
 
 # Check if output directory exists; if not, create it
 if [[ -d "$OUTPUTDIR" ]]; then
@@ -54,7 +54,7 @@ sed '/^>CM067966\.1 Diachasmimorpha longicaudata isolate KC_UGA_2023 mitochondri
 ' "${PREFIX}.fasta" > "${PREFIX}2.fasta"
 
 # compile a list of all contaminating contigs
-cat ${RAWDATA}/Blob_p_ec/LVG_Male.p_ctg_ec_blobblurbout.tsv | grep -v "Arthropoda\|record" | cut -f 1 > ${PREFIX}_blob_contaminants.txt
+cat ${RAWDATA}/Blob_p_noec/LVG_Male.p_ctg_noec_blobblurbout.tsv | grep -v "Arthropoda\|record" | cut -f 1 > ${PREFIX}_blob_contaminants.txt
 
 cat ${PREFIX}2.fasta | grep ">" | cut -c2- >${PREFIX}_debris.txt
 
@@ -63,7 +63,7 @@ cat ${PREFIX}2.fasta | grep ">" | cut -c2- | grep "debris" >${PREFIX}_debris.txt
 
 # Make a trash contig file
 
-cat $RAWDATA/MT_p_ec/contigs_ids.txt ${PREFIX}_blob_contaminants.txt ${PREFIX}_debris.txt > ${PREFIX}_trash.txt
+cat $RAWDATA/MT_p_noec/contigs_ids.txt ${PREFIX}_blob_contaminants.txt ${PREFIX}_debris.txt > ${PREFIX}_trash.txt
 
 #
 python $SOFTWARE/FastaParser/fastaparser.py ${PREFIX}.fasta ${PREFIX}_trash.txt
