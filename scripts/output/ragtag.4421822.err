@@ -1,9 +1,0 @@
-Mon Sep 22 16:49:34 2025 --- VERSION: RagTag v2.1.0
-Mon Sep 22 16:49:34 2025 --- CMD: ragtag.py scaffold /lustre/isaac24/scratch/nhaulk/Dlongi_genomes_USDA/SVG_Onekahakaha_Male/HiC_yahs_p/SVG_Male.p_ctg_noec_converted.fasta SVG.p_noec -o /lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/JtoF_fasta/SVG.p_noec.fasta
-Traceback (most recent call last):
-  File "/nfs/home/nhaulk/miniconda3/envs/ragtag_env/bin/ragtag_scaffold.py", line 577, in <module>
-    main()
-    ~~~~^^
-  File "/nfs/home/nhaulk/miniconda3/envs/ragtag_env/bin/ragtag_scaffold.py", line 320, in main
-    raise FileNotFoundError("Could not find file: %s" % query_file)
-FileNotFoundError: Could not find file: /lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/scripts/SVG.p_noec

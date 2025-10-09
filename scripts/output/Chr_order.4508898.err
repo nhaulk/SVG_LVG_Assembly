@@ -1,0 +1,9 @@
+/var/spool/slurm/spool/job4508898/slurm_script: line 25: ../LVG_purged_noec_Clean_Genome/LVG_purged_noec_chr.bed: No such file or directory
+cat: ../LVG_purged_noec_Clean_Genome/LVG_purged_noec_chr.lengths: No such file or directory
+/var/spool/slurm/spool/job4508898/slurm_script: line 27: ../LVG_purged_noec_Clean_Genome/LVG_purged_noec_unpl.bed: No such file or directory
+cat: ../LVG_purged_noec_Clean_Genome/LVG_purged_noec_unpl.lengths: No such file or directory
+/var/spool/slurm/spool/job4508898/slurm_script: line 29: ../LVG_purged_noec_Clean_Genome/LVG_purged_noec_mt.bed: No such file or directory
+cat: ../LVG_purged_noec_Clean_Genome/LVG_purged_noec_mt.length: No such file or directory
+cat: ../LVG_purged_noec_Clean_Genome/LVG_purged_noec_chr.bed: No such file or directory
+cat: ../LVG_purged_noec_Clean_Genome/LVG_purged_noec_unpl.bed: No such file or directory
+cat: ../LVG_purged_noec_Clean_Genome/LVG_purged_noec_mt.bed: No such file or directory

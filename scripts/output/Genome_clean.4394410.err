@@ -1,8 +1,0 @@
-/var/spool/slurm/spool/job4394410/slurm_script: line 45: stats.sh: command not found
-Traceback (most recent call last):
-  File "/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py", line 12, in <module>
-    input_file = open(args.records, "r")
-FileNotFoundError: [Errno 2] No such file or directory: 'test_trash.txt'
-cat: test_trash_remaining.lengths: No such file or directory
-cat: test_trash_remaining.lengths: No such file or directory
-cat: test_trash_remaining.lengths: No such file or directory

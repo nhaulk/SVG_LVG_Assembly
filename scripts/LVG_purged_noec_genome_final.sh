@@ -20,7 +20,7 @@ RAWDATA="/lustre/isaac24/scratch/nhaulk/Dlongi_genomes_USDA/LVG_Punaluu_Male"
 SOFTWARE="/lustre/isaac24/scratch/nhaulk/software"
 
 # Define output directory
-OUTPUTDIR="../LVG_purged_Clean_Genome"
+OUTPUTDIR="../LVG_purged_noec_Clean_Genome"
 
 # Check if output directory exists; if not, create it
 if [[ -d "$OUTPUTDIR" ]]; then

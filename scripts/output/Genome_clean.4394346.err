@@ -1,5 +1,0 @@
-/var/spool/slurm/spool/job4394346/slurm_script: line 45: stats.sh: command not found
-Traceback (most recent call last):
-  File "/lustre/isaac24/scratch/nhaulk/software/FastaParser/fastaparser.py", line 3, in <module>
-    import pandas as pd
-ModuleNotFoundError: No module named 'pandas'

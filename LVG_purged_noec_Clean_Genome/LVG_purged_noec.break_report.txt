@@ -1,0 +1,5 @@
+#1 total breaks in 1 contigs
+#orig_contig	fragment	break_start	break_end	fragment_len
+ctg00000029.1	ctg00000029.1:::fragment_1	0	1466540	1466540
+ctg00000029.1	ctg00000029.1:::fragment_2:::debris	1466540	1716539	249999
+ctg00000029.1	ctg00000029.1:::fragment_3	1716539	3279138	1562599

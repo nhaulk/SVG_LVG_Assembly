@@ -1,0 +1,3 @@
+terminate called after throwing an instance of 'std::invalid_argument'
+  what():  stoll
+/var/spool/slurm/spool/job4509166/slurm_script: line 21: 3251168 Aborted                 (core dumped) bedtools getfasta -nameOnly -fi ${PREFIX}_trash_remaining.fasta -bed ${PREFIX}_chr_unpl_mt.bed -fo ${PREFIX}_chr_unpl_mt.fasta
