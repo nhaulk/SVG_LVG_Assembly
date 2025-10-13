@@ -28,6 +28,10 @@ samtools faidx "$QUERY"
 cut -f1,2 "${REF}.fai" | awk '{print $1"\t1\t"$2}' > "${PREFIX}_ref_chr_info.txt"
 cut -f1,2 "${QUERY}.fai" | awk '{print $1"\t1\t"$2}' > "${PREFIX}_query_chr_info.txt"
 
-awk 'NR>5 {print $12"\t"$1"\t"$2"\tblock"NR"\tblue"}' "${PREFIX}.coords" > "${PREFIX}_ref_synteny.txt"
-awk 'NR>5 {print $13"\t"$4"\t"$5"\tblock"NR"\tred"}' "${PREFIX}.coords" > "${PREFIX}_query_synteny.txt"
+# Reference synteny: handle reversed coordinates
+awk 'NR>5 {s=($1<$2?$1:$2); e=($1>$2?$1:$2); print $12"\t"s"\t"e"\tblock"NR"\tblue"}' "${PREFIX}.coords" > "${PREFIX}_ref_synteny.txt"
+
+# Query synteny: handle reversed coordinates
+# If query chromosome names are missing, assign a placeholder (e.g., scaffold_1)
+awk 'NR>5 {s=($4<$5?$4:$5); e=($4>$5?$4:$5); chr=$13; if(chr=="") chr="scaffold_1"; print chr"\t"s"\t"e"\tblock"NR"\tred"}' "${PREFIX}.coords" > "${PREFIX}_query_synteny.txt"
 
