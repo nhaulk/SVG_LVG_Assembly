@@ -1,0 +1,10 @@
+'dot' directory already exists. Using existing directory.
+header from delta file:
+/lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/SVG_purged_noec_Clean_Genome/SVG_purged_noec_chr_unpl_mt.fasta /lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/LVGandSVG_Juicebox/GCF_034640455.1_iyDiaLong2_genomic.fna
+NUCMER
+First read through the file: 1 seconds for 3561 query-reference combinations
+Filtering alignments of 246 queries
+Progress: 100%
+Deciding which alignments to keep: 0 seconds for 246 queries
+Writing filtered delta file and capturing information for coords file: 3 seconds for 6111759 total lines in file
+Included the longest 1000 alignments in the index under #overview (change this with the --overview parameter), out of a total of 183383 alignments.

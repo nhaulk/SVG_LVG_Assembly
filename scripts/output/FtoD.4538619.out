@@ -1,0 +1,9 @@
+'dot' directory not found. Creating it...
+header from delta file:
+/lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/SVG_purged_noec_Clean_Genome/SVG_purged_noec_chr_unpl_mt.fasta /lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/LVGandSVG_Juicebox/GCF_034640455.1_iyDiaLong2_genomic.fna
+NUCMER
+First read through the file: 0 seconds for 0 query-reference combinations
+Filtering alignments of 0 queries
+Progress: 100%
+Deciding which alignments to keep: 0 seconds for 0 queries
+Writing filtered delta file and capturing information for coords file: 0 seconds for 0 total lines in file

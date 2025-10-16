@@ -1,0 +1,7 @@
+cat: ../_Clean_Genome/_chr.lengths/var/spool/slurm/spool/job4551738/slurm_script: line 25: ../_Clean_Genome/_chr.bed: No such file or directory
+: No such file or directory
+/var/spool/slurm/spool/job4551738/slurm_script: line 27: ../_Clean_Genome/_unpl.bed: No such file or directory
+cat: ../_Clean_Genome/_unpl.lengths: No such file or directory
+/var/spool/slurm/spool/job4551738/slurm_script: line 29: ../_Clean_Genome/_mt.bed: No such file or directory
+cat: ../_Clean_Genome/_mt.length: No such file or directory
+/var/spool/slurm/spool/job4551738/slurm_script: line 31: ../_Clean_Genome/_chr_unpl_mt.bed: No such file or directory

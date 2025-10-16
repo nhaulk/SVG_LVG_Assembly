@@ -1,0 +1,22 @@
+/var/spool/slurm/spool/job4551745/slurm_script: line 33: nucmer: command not found
+Traceback (most recent call last):
+  File "/lustre/isaac24/scratch/nhaulk/software/dot/DotPrep.py", line 44, in getQueryRefCombinations
+    f = gzip.open(filename, 'rt')
+  File "/nfs/home/nhaulk/miniconda3/envs/genome_assembly_fastaparser/lib/python3.10/gzip.py", line 58, in open
+    binary_file = GzipFile(filename, gz_mode, compresslevel)
+  File "/nfs/home/nhaulk/miniconda3/envs/genome_assembly_fastaparser/lib/python3.10/gzip.py", line 174, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'LVG_purged_noec_chr_unpl_mt.delta'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/lustre/isaac24/scratch/nhaulk/software/dot/DotPrep.py", line 440, in <module>
+    main()
+  File "/lustre/isaac24/scratch/nhaulk/software/dot/DotPrep.py", line 437, in main
+    args.func(args)
+  File "/lustre/isaac24/scratch/nhaulk/software/dot/DotPrep.py", line 25, in run
+    header_lines_by_query, lines_by_query = getQueryRefCombinations(filename)
+  File "/lustre/isaac24/scratch/nhaulk/software/dot/DotPrep.py", line 47, in getQueryRefCombinations
+    f = open(filename, 'r')
+FileNotFoundError: [Errno 2] No such file or directory: 'LVG_purged_noec_chr_unpl_mt.delta'
