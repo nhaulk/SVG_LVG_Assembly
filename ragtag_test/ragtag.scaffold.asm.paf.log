@@ -1,0 +1,10 @@
+[M::mm_idx_gen::3.280*0.97] collected minimizers
+[M::mm_idx_gen::4.653*0.98] sorted minimizers
+[M::main::4.653*0.98] loaded/built the index for 246 target sequence(s)
+[M::mm_mapopt_update::4.789*0.98] mid_occ = 242
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 246
+[M::mm_idx_stat::4.898*0.98] distinct minimizers: 12771924 (96.66% are singletons); average occurrences: 1.526; average spacing: 9.977; total length: 194452999
+[M::worker_pipeline::457.233*1.00] mapped 97 sequences
+[M::main] Version: 2.30-r1287
+[M::main] CMD: minimap2 -x asm5 -t 1 /lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/LVGandSVG_Juicebox/GCF_034640455.1_iyDiaLong2_genomic.fna /lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/LVG_p_noec_Clean_Genome/LVG_p_noec.fasta
+[M::main] Real time: 457.258 sec; CPU: 455.047 sec; Peak RSS: 1.612 GB
