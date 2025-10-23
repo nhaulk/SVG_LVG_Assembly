@@ -1,0 +1,16 @@
+1: PREPARING DATA
+2,3: RUNNING mummer AND CREATING CLUSTERS
+# reading input file "rt_test.ntref" of length 202859900
+# construct suffix tree for sequence of length 202859900
+# (maximum reference length is 2305843009213693948)
+# (maximum query length is 18446744073709551615)
+# process 2028599 characters per dot
+#...................................................................................................
+# CONSTRUCTIONTIME /nfs/home/nhaulk/miniconda3/envs/synteny_env/opt/mummer-3.23/mummer rt_test.ntref 67.09
+# reading input file "/lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/ragtag_test/SVG_purged/ragtag.scaffold.fasta" of length 189861486
+# matching query-file "/lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/ragtag_test/SVG_purged/ragtag.scaffold.fasta"
+# against subject-file "rt_test.ntref"
+# COMPLETETIME /nfs/home/nhaulk/miniconda3/envs/synteny_env/opt/mummer-3.23/mummer rt_test.ntref 206.76
+# SPACE /nfs/home/nhaulk/miniconda3/envs/synteny_env/opt/mummer-3.23/mummer rt_test.ntref 377.75
+4: FINISHING DATA
+/var/spool/slurm/spool/job4564795/slurm_script: line 39: python: command not found

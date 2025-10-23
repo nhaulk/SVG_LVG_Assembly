@@ -15,8 +15,10 @@
 
 # Define paths
 NCBI_DATA="/lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/LVGandSVG_Juicebox/GCF_034640455.1_iyDiaLong2_genomic.fna"
+INPUT="LVG_p"
 
-cd ../ragtag_test
+
+cd ../ragtag_test/$INPUT
 
 if [ ! -d "dot" ]; then
     echo "'dot' directory not found. Creating it..."
@@ -27,9 +29,14 @@ fi
 
 cd dot
 
-# Compare the two files
-nucmer -p rt_test /lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/ragtag_test/ragtag.scaffold.fasta $NCBI_DATA
+echo /lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/ragtag_test/$INPUT/ragtag.scaffold.fasta
 
-# convert the comparisons to delta files
+# Compare the two files
+nucmer -p rt_test /lustre/isaac24/proj/UTK0312/nathaniel.haulk/projects/Dlongi_genomes/ragtag_test/$INPUT/ragtag.scaffold.fasta $NCBI_DATA
+
+echo "Nucmer Complete"
+
+# Convert the comparisons to delta files
 python /lustre/isaac24/scratch/nhaulk/software/dot/DotPrep.py --delta rt_test.delta --out rt_test
 
+echo "DotPrep Complete"
